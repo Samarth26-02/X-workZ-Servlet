@@ -32,7 +32,7 @@ public class ActorServlet extends GenericServlet {
 
         PrintWriter writer=servletResponse.getWriter();
 
-//        writer.println("text/html.");
+        servletResponse.setContentType("text/html.");
         writer.println("<html>");
         writer.println("<body>");
         writer.println("Actor detail is correct");
