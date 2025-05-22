@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Accessories</title>
+</head>
+<body>
+<form action="accessories" method="post">
+    <label>Name:</label>
+    <input type="text" name="accessoryName"/><br>
+
+    <div class="tp">
+        <label for="type" class="typ">Size</label>
+        <select class="typ" id="type" name="Type" required>
+            <option >Select Type</option>
+            <option value="Bags">Bags</option>
+            <option value="Shoes">Shoes</option>
+            <option value="Belts">Belts</option>
+            <option value="Hats">Hats</option>
+        </select>
+    </div>
+
+    <div class="wa">
+        <label for="warranty" class="war">Size</label>
+        <select class="war" id="warranty" name="Warranty" required>
+            <option >Select Warranty</option>
+            <option value="5">5 years</option>
+            <option value="10">10 years</option>
+            <option value="15">15 years</option>
+        </select>
+    </div>
+    <label>Price:</label>
+    <input type="number" name="price"/><br>
+
+    <label>Quantity:</label>
+    <input type="number" name="quantity"/><br>
+
+    <input type="submit" value="submit"/>
+</form>
+
+</body>
+</html>

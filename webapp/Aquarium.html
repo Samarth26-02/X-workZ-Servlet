@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aquarium</title>
+</head>
+<body>
+<form action="aquarium" method="post">
+    <label>Model:</label>
+    <input type="text" name="model"/><br>
+
+    <label>Cost:</label>
+    <input type="number" name="cost"/><br>
+
+
+    <div class="aq">
+        <label for="size" class="sizes">Size</label>
+        <select class="sizes" id="size" name="size" required>
+            <option >Select Size</option>
+            <option value="Small">Small</option>
+            <option value="Medium">Medium</option>
+            <option value="Large">Large</option>
+        </select>
+    </div>
+    <label>Company:</label>
+    <input type="text" name="company"/><br>
+
+    <label>Capacity:</label>
+    <input type="text" name="capacity"/><br>
+
+    <input type="submit" value="submit"/>
+</form>
+
+</body>
+</html>

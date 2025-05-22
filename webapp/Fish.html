@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fish</title>
+</head>
+<body>
+<form action="fish" method="post">
+    <label>Name:</label>
+    <input type="text" name="fishName"/><br>
+
+    <label>Color:</label>
+    <input type="text" name="color"/><br>
+
+
+    <div class="ls">
+        <label for="lifespan" class="life">Size</label>
+        <select class="life" id="lifespan" name="LifeSpan" required>
+            <option >Select Life Span</option>
+            <option value="5">5 years</option>
+            <option value="10">10 years</option>
+            <option value="20">20 years</option>
+            <option value="40">40 years</option>
+        </select>
+    </div>
+    <label>Cost:</label>
+    <input type="number" name="cost"/><br>
+
+    <label>Type:</label>
+    <input type="text" name="type"/><br>
+
+    <div class="ls">
+        <label for="size" class="sz">Size</label>
+        <select class="sz" id="size" name="Size" required>
+            <option >Select Size</option>
+            <option value="Small">Small</option>
+            <option value="Medium">Medium</option>
+            <option value="Large">Large</option>
+        </select>
+    </div>
+
+    <input type="submit" value="submit"/>
+</form>
+
+</body>
+</html>
