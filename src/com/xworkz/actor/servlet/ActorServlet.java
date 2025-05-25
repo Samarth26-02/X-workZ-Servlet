@@ -9,6 +9,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 @WebServlet(urlPatterns = "/actor",loadOnStartup = 1)
+    //loads this page first
 
 public class ActorServlet extends GenericServlet {
 
