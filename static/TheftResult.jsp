@@ -1,18 +1,18 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Theft Complaint</title>
+    <title>Theft Report Submitted</title>
 </head>
 <body>
-<h1>Theft Complaint Registered.</h1>
-Name:${name};
-Mobile:${mobile};
-Age:${age};
-Address:${address};
-Location:${location};
-Item:${item};
-Lost On:${lostOn};
+<h2>Theft Report Details</h2>
+<strong>
+<p>Name: ${name}</p>
+<p>Mobile: ${mobile}</p>
+<p>Age: ${age}</p>
+<p>Address: ${address}</p>
+<p>Location: ${location}</p>
+<p>Item: ${item}</p>
+<p>Lost on: ${lostOn}</p>
+</strong>
 </body>
 </html>

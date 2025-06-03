@@ -25,15 +25,15 @@ public class MissingServlet extends GenericServlet {
         String language=servletRequest.getParameter("language");
 
         RequestDispatcher requestDispatcher=servletRequest.getRequestDispatcher("MissingResult.jsp");
+        servletRequest.setAttribute("name",name);
+        servletRequest.setAttribute("mobile",mobile);
+        servletRequest.setAttribute("age",age);
+        servletRequest.setAttribute("address",address);
+        servletRequest.setAttribute("location",location);
+        servletRequest.setAttribute("marks",marks);
+        servletRequest.setAttribute("gender",gender);
+        servletRequest.setAttribute("language",language);
         requestDispatcher.forward(servletRequest,servletResponse);
-        servletRequest.getAttribute("name");
-        servletRequest.getAttribute("mobile");
-        servletRequest.getAttribute("age");
-        servletRequest.getAttribute("address");
-        servletRequest.getAttribute("location");
-        servletRequest.getAttribute("marks");
-        servletRequest.getAttribute("gender");
-        servletRequest.getAttribute("language");
 
 
     }

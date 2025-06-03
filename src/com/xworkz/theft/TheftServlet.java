@@ -25,14 +25,13 @@ public class TheftServlet extends GenericServlet {
         System.out.println("Complaint registered");
 
         RequestDispatcher requestDispatcher=servletRequest.getRequestDispatcher("TheftResult.jsp");
-        servletRequest.getAttribute("name");
-        servletRequest.getAttribute("mobile");
-        servletRequest.getAttribute("age");
-        servletRequest.getAttribute("address");
-        servletRequest.getAttribute("location");
-        servletRequest.getAttribute("item");
-        servletRequest.getAttribute("lostOn");
-        servletRequest.getRequestDispatcher("lostOn");
+        servletRequest.setAttribute("name",name);
+        servletRequest.setAttribute("mobile",mobile);
+        servletRequest.setAttribute("age",age);
+        servletRequest.setAttribute("address",address);
+        servletRequest.setAttribute("location",location);
+        servletRequest.setAttribute("item",item);
+        servletRequest.setAttribute("lostOn",lostOn);
         requestDispatcher.forward(servletRequest,servletResponse);
     }
 }

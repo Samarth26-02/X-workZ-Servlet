@@ -1,19 +1,43 @@
-<!doctype html>
-<html lang="en">
+<!--<!doctype html>-->
+<!--<html>-->
+<!--<head>-->
+<!--    <title>Missing Person Report Submitted</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<h2>Missing Person Report Details</h2>-->
+<!--<strong>-->
+<!--<p>Missing Person Name: ${name}</p>-->
+<!--<p>Complaintee Mobile: ${mobile}</p>-->
+<!--<p>Missing Person Age: ${age}</p>-->
+<!--<p>Address: ${address}</p>-->
+<!--<p>Location: ${location}</p>-->
+<!--<p>Marks: ${marks}</p>-->
+<!--<p>Gender: ${gender}</p>-->
+<!--<p>Languages: ${language}</p>-->
+<!--</strong>-->
+<!--</body>-->
+<!--</html>-->
+
+
+
+
+
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Missing Complaint</title>
+    <title>Missing Report Submitted</title>
 </head>
 <body>
-<h1>Missing Complaint Registered.</h1>
-Missing Person Name=${name};
-Complaintee Mobile=${mobile};
-Missing Person Age=${age};
-Address=${address};
-Location=${location};
-Marks=${marks};
-Missing Person Gender=${gender};
-Language Known=${language};
+<h2>Missing Report Details</h2>
+<strong>
+    <p>Missing Person Name: ${name}</p>
+    <p>Complaintee Mobile: ${mobile}</p>
+    <p>Missing Person Age: ${age}</p>
+    <p>Address: ${address}</p>
+    <p>Location: ${location}</p>
+    <p>Marks: ${marks}</p>
+    <p>Gender: ${gender}</p>
+    <p>Languages: ${language}</p>
+</strong>
 </body>
 </html>

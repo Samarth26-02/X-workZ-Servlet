@@ -1,29 +1,19 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Theft page</title>
+    <title>Theft Report</title>
 </head>
 <body>
-<h1>File the theft complaint here</h1>
+<h2>Theft Report Form</h2>
 <form action="theft" method="post">
-    <label>Name:</label>
-    <input type="text" name="name"/><br>
-    <label>Mobile:</label>
-    <input type="number" name="mobile"/><br>
-    <label>Age:</label>
-    <input type="number" name="age"/><br>
-    <label>Address:</label>
-    <input type="text" name="address"/><br>
-    <label>Location</label>
-    <input type="text" name="location"/><br>
-    <label>Item</label>
-    <input type="text" name="item"/><br>
-    <label>Lost On:</label>
-    <input type="number" name="loston"/><br>
-
-    <input type="submit" value="submit"/>
+    Name: <input type="text" name="name" /><br/>
+    Mobile: <input type="number" name="mobile" /><br/>
+    Age: <input type="number" name="age" /><br/>
+    Address: <input type="text" name="address" /><br/>
+    Location: <input type="text" name="location" /><br/>
+    Item: <input type="text" name="item" /><br/>
+    Lost On: <input type="date" name="lostOn" /><br/>
+    <input type="submit" value="Submit Theft Report" />
 </form>
 </body>
 </html>

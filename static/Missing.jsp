@@ -1,31 +1,20 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Missing page</title>
+    <title>Missing Report</title>
 </head>
 <body>
-<h1>File the missing complaint here</h1>
+<h2>Missing Report Form</h2>
 <form action="missing" method="post">
-    <label>Missing Person Name:</label>
-    <input type="text" name="name"/><br>
-    <label>Complaintee Mobile:</label>
-    <input type="number" name="mobile"/><br>
-    <label>Missing Person Age:</label>
-    <input type="number" name="age"/><br>
-    <label>Address:</label>
-    <input type="text" name="address"/><br>
-    <label>Location</label>
-    <input type="text" name="location"/><br>
-    <label>Marks</label>
-    <input type="text" name="marks"/><br>
-    <label>Missing Person Gender:</label>
-    <input type="text" name="gender"/><br>
-    <label>Language Known:</label>
-    <input type="text" name="language"/><br>
-
-    <input type="submit" value="submit"/>
+    Missing Person Name: <input type="text" name="name" /><br/>
+    Complaintee Mobile: <input type="number" name="mobile" /><br/>
+    Missing Person Age: <input type="number" name="age" /><br/>
+    Address: <input type="text" name="address" /><br/>
+    Location: <input type="text" name="location" /><br/>
+    Mark: <input type="text" name="mark" /><br/>
+    Missing Person Gender: <input type="text" name="gender" /><br/>
+    Languages Known: <input type="date" name="language" /><br/>
+    <input type="submit" value="Submit Missing Report" />
 </form>
 </body>
 </html>
