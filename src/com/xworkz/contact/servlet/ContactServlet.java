@@ -1,9 +1,11 @@
+
 package com.xworkz.contact.servlet;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
 import java.io.IOException;
 
+// calls servlet
 @WebServlet(urlPatterns = "/contact",loadOnStartup = 1)
 
 public class ContactServlet extends GenericServlet {
