@@ -1,4 +1,4 @@
-//contact result. jsp
+//contact result
 
 <html>
 
