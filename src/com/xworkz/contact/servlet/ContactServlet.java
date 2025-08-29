@@ -1,6 +1,7 @@
 //Contact servlet
 package com.xworkz.contact.servlet;
 
+//imports
 import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
 import java.io.IOException;
